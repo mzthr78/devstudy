@@ -21,6 +21,7 @@ Create -> Physics Material\
 \
 ![](https://github.com/mzthr78/docs/blob/master/dev/unity/image/platformer2d_intro_005.png)
 
+player.cs
 ```player.cs
 using UnityEngine;
 using UnityEngine.InputSystem;
