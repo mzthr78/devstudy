@@ -5,8 +5,8 @@
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/platformer2d_intro.png)
 
 
-(自動生成されたスクリプトのまんま)
 
+player.gd(自動生成されたスクリプトのまんま)
 ```player.gd
 extends CharacterBody2D
 
