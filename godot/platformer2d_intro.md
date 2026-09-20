@@ -2,6 +2,7 @@
 
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/platformer2d_intro.gif)
 
+StaticBody2個とCharacterBodyをてきとーに配置\
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/platformer2d_intro.png)
 
 
