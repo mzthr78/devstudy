@@ -1,23 +1,23 @@
 # tilemap
 
-2D Object -> Tilemap -> Rectangular
+2D Object -> Tilemap -> Rectangular\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_001.png)
 
-Assetにタイル用画像を追加
+Assetにタイル用画像を追加\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_002.png)
 
-スプライト画像のサイズを変更（ここでは16）
+スプライト画像のサイズを変更（ここでは16）\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_007.png)
 
-画像のInspectorからOpen Sprite Editor
+画像のInspectorからOpen Sprite Editor\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_003.png)
 
-画像をスライス（ここではサイズを16*16に指定）して保存
+画像をスライス（ここではサイズを16*16に指定）して保存\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_004.png)
 
-保存したパターンをTilePalletにドラッグ＆ドロップ
+保存したパターンをTilePalletにドラッグ＆ドロップ\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_005.png)
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_006.png)
 
-Tile Paletteから選択して並べる
+Tile Paletteから選択して並べる\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_008.png)
