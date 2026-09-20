@@ -21,3 +21,7 @@ Assetにタイル用画像を追加\
 
 Tile Paletteから選択して並べる\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_008.png)
+
+タイルの境目でひっかかることがあるので. 
+Composite Collider 2D を追加して、Tilemap Collider 2D のComposite OperationをMergeに変更\
+![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_009.png)
