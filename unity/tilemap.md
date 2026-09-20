@@ -7,7 +7,7 @@ Assetにタイル用画像を追加\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_002.png)
 
 スプライト画像のサイズを変更（ここでは16）\
-![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_007.png)
+![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_005.png)
 
 画像のInspectorからOpen Sprite Editor\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_003.png)
@@ -16,7 +16,7 @@ Assetにタイル用画像を追加\
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_004.png)
 
 保存したパターンをTilePalletにドラッグ＆ドロップ\
-![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_005.png)
+![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_007.png)
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/tilemap/tilemap_006.png)
 
 Tile Paletteから選択して並べる\
