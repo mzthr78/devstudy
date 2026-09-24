@@ -16,7 +16,7 @@ const DIR = [
 	Vector2i(0, -1), # UP
 	Vector2i(1, 0), # RIGHT
 	Vector2i(0, 1), # DOWN
-	Vector2i(-1, 0),
+	Vector2i(-1, 0), # LEFT
 ]
 
 # Called when the node enters the scene tree for the first time.
