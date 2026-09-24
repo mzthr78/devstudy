@@ -10,8 +10,6 @@ extends Node2D
 var sizeX = 71
 var sizeY = 39
 
-var grid: Array = []
-
 const DIR = [
 	Vector2i(0, -1), # UP
 	Vector2i(1, 0), # RIGHT
@@ -23,6 +21,8 @@ const DIR = [
 func _ready() -> void:
 	tilemaplayer.clear()
 	
+	var grid: Array = []
+
 	# gridの初期化
 	for y in range(sizeY):
 		var tmp: Array = []
