@@ -71,5 +71,5 @@ func dig(grid: Array) -> Array:
 
 func getPanel(index: int = 0) -> Vector2i:
 	# "2"固定じゃあかん
-	return Vector2i(index % 2, index / 2)
+	return Vector2i(index % 2, int(index / float(2))) # Warning出さないためのfloat()とint()
 ```
