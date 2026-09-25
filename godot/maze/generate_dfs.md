@@ -1,5 +1,7 @@
 # 穴掘り法
 
+![](https://github.com/mzthr78/devstudy/blob/master/godot/image/maze/maze_generate_dfs.png)
+
 たぶん。やり方だけ見てコードは自分で考えてみたから合ってるかわからん。
 
 (スタック＆ループ)
