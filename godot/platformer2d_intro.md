@@ -1,4 +1,4 @@
-# 
+# Godot Platform2D はじめの一歩
 
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/platformer2d_intro.gif)
 
