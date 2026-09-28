@@ -1,5 +1,7 @@
 #
 
+(Unity6.5)
+
 ロードするシーンをBuild ProfilesのScene Listに追加する
 
 ![](https://github.com/mzthr78/docs/blob/master/dev/unity/image/menu_file_buildprofiles.png)
