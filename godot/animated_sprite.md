@@ -1,5 +1,7 @@
 #
 
+(Godot4.5)
+
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/animated_sprite_01.png)
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/animated_sprite_02.png)
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/animated_sprite_03.png)
