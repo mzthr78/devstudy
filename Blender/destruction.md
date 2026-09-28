@@ -1,5 +1,7 @@
 # destruction
 
+(Blender5.2.0)
+
 こんな感じのことをやる\
 ![](https://github.com/mzthr78/devstudy/blob/master/Blender/image/destruction/destruction004.png)
 
