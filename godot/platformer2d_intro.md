@@ -1,5 +1,7 @@
 # Godot Platform2D はじめの一歩
 
+(Godot4.5)
+
 ![](https://github.com/mzthr78/docs/blob/master/dev/godot/image/platformer2d_intro.gif)
 
 StaticBody2個とCharacterBodyをてきとーに配置\
