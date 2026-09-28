@@ -1,5 +1,7 @@
 # tilemaplayer
 
+(Godot4.5)
+
 TileMapLayerを追加\
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/tilemaplayer/tilemaplayer_001.png)
 
