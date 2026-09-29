@@ -1,5 +1,6 @@
 (Unity6.5)
 
+(この動画ではオブジェクトをDestroyしてない)
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/breakable/breakable000.gif)
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/breakable/breakable001.png)
 
