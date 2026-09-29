@@ -9,7 +9,7 @@
 Cell FractureをInstall\
 ![](https://github.com/mzthr78/devstudy/blob/master/blender/image/destruction/destruction001.png)
 
-Menu Search(F3)から選択\
+Edit->Menu Search...(F3)から選択\
 ![](https://github.com/mzthr78/devstudy/blob/master/blender/image/destruction/destruction002.png)
 
 (例)\
