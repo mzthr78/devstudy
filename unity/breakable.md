@@ -1,7 +1,7 @@
 (Unity6.5)
 
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/breakable/breakable000.gif)
-![](https://github.com/mzthr78/devstudy/blob/master/unity/image/breakable/breakable001.gif)
+![](https://github.com/mzthr78/devstudy/blob/master/unity/image/breakable/breakable001.png)
 
 breakable.cs
 ```
