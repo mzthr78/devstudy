@@ -1,4 +1,4 @@
-(壊せるオブジェクトのBlenderでの作り方は[こちら](https://github.com/mzthr78/devstudy/blob/master/Blender/destruction.md))
+(壊せるオブジェクトのBlenderでの作り方は[こちら](https://github.com/mzthr78/devstudy/blob/master/blender/destruction.md))
 
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/breakable/breakable000.gif)
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/breakable/breakable001.png)
