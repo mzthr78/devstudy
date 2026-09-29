@@ -6,7 +6,7 @@
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/breakable/breakable001.png)
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/breakable/breakable002.png)
 
-(ざっくり)\
+(ざっくり説明)\
 RigidBodyに破片のメッシュを追加してそれを親に追加して動かして消す
 
 main.gd
