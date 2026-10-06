@@ -11,7 +11,10 @@
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/brickbreaker/brickbreaker002.png)
 ブロック(RigidBody2D)
 
-メイン.gd(brickbreaker.gd)
+メインスクリプト(brickbreaker.gd)
+- メッセージ表示
+- 残ブロック数
+- ミス（残ライフ）
 ```
 extends Node2D
 
@@ -76,7 +79,8 @@ func _on_abyss_entered(body: Node2D) -> void:
 	label.visible = true
 ```
 
-パドル(paddle.gd)
+パドルスクリプト(paddle.gd)
+- パドルの移動
 ```
 extends CharacterBody2D
 
@@ -96,7 +100,8 @@ func _physics_process(_delta: float) -> void:
 	move_and_collide(velocity)
 ```
 
-ボール(ball.gd)
+ボールスクリプト(ball.gd)
+- 衝突処理
 ```
 extends CharacterBody2D
 class_name Ball
@@ -124,7 +129,8 @@ func _physics_process(delta: float) -> void:
 		#move_and_collide(collision.get_remainder().bounce(collision.get_normal()))
 ```
 
-ブロック(brick.gd)
+ブロックスクリプト(brick.gd)
+- 壊れたことを通知
 ```
 extends RigidBody2D
 class_name Brick
