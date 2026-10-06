@@ -37,8 +37,8 @@ func _ready() -> void:
 		for i in range(5):
 			var brick: Brick = brick_scene.instantiate()
 			
-			var x = 350 + 100 * i
-			var y = 100 + 50 * j
+			var x = 350 + 100 * i # 始点+間隔 ここの数値は画面の幅とかブロックのサイズとかによって調整
+			var y = 100 + 50 * j # ここも
 			
 			brick.position = Vector2(x, y)
 			brick.connect("broken", _on_brick_broken)
