@@ -4,7 +4,7 @@
 
 メインシーン\
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/brickbreaker/brickbreaker001.png)
-パドル(CharacterBody2D)とボール(CharacterBody2D)と壁(画面上左右にコライダー)と穴？（Area2D)を配置。
+パドル(CharacterBody2D)とボール(CharacterBody2D)と壁(画面上左右にコライダー)と穴？（Area2D)とメッセージ表示用ラベルを配置。
 
 
 ブロックシーン\
