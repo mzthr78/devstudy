@@ -1,4 +1,4 @@
-# BrickBreaker
+# ブロック崩し
 
 ![](https://github.com/mzthr78/devstudy/blob/master/godot/image/brickbreaker/brickbreaker000.gif)
 
