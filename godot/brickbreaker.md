@@ -16,6 +16,7 @@
 - メッセージ表示
 - 残ブロック数
 - ミス（残ライフ）
+
 ```
 extends Node2D
 
@@ -28,6 +29,8 @@ extends Node2D
 var life: int = 3
 var count: int = 5 * 3
 
+var isPlaying: bool = false
+
 func _ready() -> void:
 	label.text = "Press Space to start"
 	
@@ -37,18 +40,20 @@ func _ready() -> void:
 		for i in range(5):
 			var brick: Brick = brick_scene.instantiate()
 			
-			var x = 350 + 100 * i # 始点+間隔 ここの数値は画面の幅とかブロックのサイズとかによって調整
-			var y = 100 + 50 * j # ここも
+			var x = 350 + 100 * i
+			var y = 100 + 50 * j
 			
 			brick.position = Vector2(x, y)
 			brick.connect("broken", _on_brick_broken)
 			add_child(brick)
 
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("ui_accept"):
+	if !isPlaying && event.is_action_pressed("ui_accept"):
 		ball.velocity = (paddle.position - ball.position).normalized() * ball.speed
 		
 		label.visible = false
+		
+		isPlaying = true
 
 
 func _on_brick_broken() -> void:
@@ -78,56 +83,8 @@ func _on_abyss_entered(body: Node2D) -> void:
 		get_tree().paused = true
 		
 	label.visible = true
-```
-
-パドルスクリプト(paddle.gd)
-- パドルの移動
-```
-extends CharacterBody2D
-
-#const SPEED: float = 700
-const SPEED: float = 10
-
-func _physics_process(_delta: float) -> void:
-	var direction = Input.get_axis("ui_left", "ui_right")
 	
-	if direction:
-		velocity.x = direction * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		
-	velocity.y = 0
-	
-	move_and_collide(velocity)
-```
-
-ボールスクリプト(ball.gd)
-- 衝突処理
-```
-extends CharacterBody2D
-class_name Ball
-
-const speed = 10
-var interval: float = 0.0
-
-func _physics_process(delta: float) -> void:
-	var collision = move_and_collide(velocity)
-	
-	if collision:
-		var collider = collision.get_collider()
-		
-		if collider is Brick:
-			(collider as Brick).destroy()
-			
-	# ぶつかったとき反射しないことがあるので間隔を調整
-	if collision && interval <= 0:
-		velocity = velocity.bounce(collision.get_normal())
-		interval = 0.08
-	else:
-		interval -= delta
-
-		# こういう方法もあるらしい
-		#move_and_collide(collision.get_remainder().bounce(collision.get_normal()))
+	isPlaying = false
 ```
 
 ブロックスクリプト(brick.gd)
