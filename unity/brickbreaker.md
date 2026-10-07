@@ -3,6 +3,18 @@
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/brickbreaker/brickbreaker000.gif)
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/brickbreaker/brickbreaker001.png)
 
+- BrickBreaker(Empty) ･･･ 全体管理用
+- Paddle(2D Object -> Sprites -> Square) ･･･ パドル
+- Ball(2D Object -> Sprites -> Circle) ･･･ ボール
+- Wall(Empty)
+    - Game Object(Empty) ･･･ 壁(左)
+    - Game Object (1)(Empty) ･･･ 壁(左)
+    - Game Object (2)(Empty) ･･･ 壁(上)
+    - Game Object (3)(Empty) ･･･ 壁(下)
+
+(Prefab)
+- Brick(2D Object -> Sprites -> Square)
+
 brickbreaker.cs
 ```
 using System;
