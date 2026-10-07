@@ -47,11 +47,12 @@ public class brickbreaker : MonoBehaviour
     int count = 15;
     int life = 3;
 
+    bool isPlaying = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         abyss.GetComponent<abyss>().OnFall += HandleBallFall;
-
         for (int j = 0; j < 3; j++)
         {
             for (int i = 0; i < 5; i++)
@@ -67,10 +68,12 @@ public class brickbreaker : MonoBehaviour
     void Update()
     {
         // 旧式InputSystem
-        if (Input.GetKeyDown(KeyCode.Space)) // GetKeyだと連続して反応しちゃう？
+        if (!isPlaying && Input.GetKeyDown(KeyCode.Space)) // GetKeyだと連続して反応しちゃう？
         {
             Info("");
             ball.GetComponent<ball>().Fire();
+
+            isPlaying = true;
         } 
     }
 
@@ -108,6 +111,8 @@ public class brickbreaker : MonoBehaviour
         ball.GetComponent<Rigidbody2D>().linearVelocity = Vector3.zero;
 
         Info("Press Space to start");
+
+        isPlaying = false;
     }
 
     private void Info(String message = "")
