@@ -27,6 +27,7 @@ public class brickbreaker : MonoBehaviour
     void Start()
     {
         abyss.GetComponent<abyss>().OnFall += HandleBallFall;
+
         for (int j = 0; j < 3; j++)
         {
             for (int i = 0; i < 5; i++)
@@ -164,10 +165,6 @@ public class ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.name == "GameObject (3)")
-        {
-            Debug.Log("hogege?");
-        }
         Vector2 direction = rb.linearVelocity.normalized;
         float speed = Mathf.Clamp(rb.linearVelocity.magnitude, minSpeed, maxSpeed);
 
