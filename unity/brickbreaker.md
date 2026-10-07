@@ -1,7 +1,11 @@
 # ブロック崩し
 
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/brickbreaker/brickbreaker000.gif)
+
+
 ![](https://github.com/mzthr78/devstudy/blob/master/unity/image/brickbreaker/brickbreaker001.png)
+
+↓こんな感じで配置。ボールにはPhysics Material 2D(Friction=0, Bounciness=1)をつけとく。
 
 - BrickBreaker(Empty) ･･･ 全体管理用
 - Paddle(2D Object -> Sprites -> Square) ･･･ パドル
