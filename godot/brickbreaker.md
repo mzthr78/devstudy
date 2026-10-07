@@ -87,6 +87,60 @@ func _on_abyss_entered(body: Node2D) -> void:
 	isPlaying = false
 ```
 
+paddle
+
+- パドルの移動
+```
+extends CharacterBody2D
+
+#const SPEED: float = 700
+const SPEED: float = 10
+
+func _physics_process(_delta: float) -> void:
+	var direction = Input.get_axis("ui_left", "ui_right")
+	
+	if direction:
+		velocity.x = direction * SPEED
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+		
+	velocity.y = 0
+	
+	move_and_collide(velocity)
+	
+```
+
+ball
+
+- 衝突による反射
+- ブロックの破壊
+```
+extends CharacterBody2D
+class_name Ball
+
+const speed = 10
+var interval: float = 0.0
+
+func _physics_process(delta: float) -> void:
+	var collision = move_and_collide(velocity)
+	
+	if collision:
+		var collider = collision.get_collider()
+		
+		if collider is Brick:
+			(collider as Brick).destroy()
+			
+	# ぶつかったとき反射しないことがあるので間隔を調整
+	if collision && interval <= 0:
+		velocity = velocity.bounce(collision.get_normal())
+		interval = 0.08
+	else:
+		interval -= delta
+
+		# こういうのもあるらしい
+		#move_and_collide(collision.get_remainder().bounce(collision.get_normal()))
+```
+
 ブロックスクリプト(brick.gd)
 - 壊れたことを通知
 ```
