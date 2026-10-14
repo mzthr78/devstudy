@@ -90,7 +90,8 @@ func _on_abyss_entered(body: Node2D) -> void:
 paddle
 
 - パドルの移動
-```
+
+```gdscript:paddle.gd
 extends CharacterBody2D
 
 #const SPEED: float = 700
@@ -114,7 +115,8 @@ ball
 
 - 衝突による反射
 - ブロックの破壊
-```
+
+```gdscript:ball.gd
 extends CharacterBody2D
 class_name Ball
 
@@ -143,7 +145,8 @@ func _physics_process(delta: float) -> void:
 
 ブロックスクリプト(brick.gd)
 - 壊れたことを通知
-```
+
+```gdscript:brick.gd
 extends RigidBody2D
 class_name Brick
 
