@@ -17,7 +17,7 @@
 - 残ブロック数
 - ミス（残ライフ）
 
-```:brickbreaker.gd
+```gdscript:brickbreaker.gd
 extends Node2D
 
 @onready var brick_scene = preload("res://brickbreaker/brick.tscn")
