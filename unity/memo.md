@@ -7,5 +7,5 @@ Time.timeScale = 0.0f
 ```
 
 > [!WARNING]
-> これで止まるのはFixedUpdate()だけ。Update()は動く。
+> これで止まるのはFixedUpdate()だけ。Update()は動く。\
 > deltaTimeはゼロになる。
