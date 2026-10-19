@@ -10,5 +10,5 @@ Time.timeScale = 0.0f
 > これで止まるのはFixedUpdate()だけ。Update()は動く。\
 > deltaTimeはゼロになる。
 
-> hoge
-> hoge
+> - てす
+> - てす
