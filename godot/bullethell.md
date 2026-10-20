@@ -26,6 +26,9 @@
 - 発射パターン制御用
   - turret(Node2D)
 
+> [!WARNING]
+> 制御がきちゃない（たぶん設計がよくない）
+
 bullethell.gd
 ```gdscript:bullethell.gd
 extends Node2D
