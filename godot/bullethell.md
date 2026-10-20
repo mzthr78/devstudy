@@ -27,7 +27,7 @@
   - turret(Node2D)
 
 > [!WARNING]
-> 制御がきちゃない（たぶん設計がよくない）
+> 制御がきちゃないっす（たぶん設計がよくない）
 
 bullethell.gd
 ```gdscript:bullethell.gd
