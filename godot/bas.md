@@ -25,17 +25,17 @@ func _process(delta: float) -> void:
 	
 	imm.surface_begin(Mesh.PRIMITIVE_LINES)
 
-  # x
+    # x
 	imm.surface_set_color(Color.RED)
 	imm.surface_add_vertex(Vector3.ZERO)
 	imm.surface_add_vertex(bas.x)
 
-  # y
+    # y
 	imm.surface_set_color(Color.GREEN)
 	imm.surface_add_vertex(Vector3.ZERO)
 	imm.surface_add_vertex(bas.y)
 
-  # z
+    # z
 	imm.surface_set_color(Color.BLUE)
 	imm.surface_add_vertex(Vector3.ZERO)
 	imm.surface_add_vertex(bas.z)
