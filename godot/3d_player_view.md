@@ -1,3 +1,5 @@
+デフォルトのCharacterBody3Dのスクリプトにカメラ(FPS)の動きを追加
+
 ```gdscript
 extends CharacterBody3D
 
