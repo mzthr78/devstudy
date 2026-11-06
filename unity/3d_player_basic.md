@@ -1,5 +1,7 @@
 # 3D Player Basic(move, view)
 
+![](https://github.com/mzthr78/devstudy/blob/master/unity/image/3d_player_basic_000.gif)
+
 ```cs:player.cs
 using Unity.VisualScripting;
 using UnityEngine;
